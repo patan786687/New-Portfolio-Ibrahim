@@ -1,0 +1,17 @@
+/* src/components/About.css */
+
+/* Keyframes for the background animation */
+@keyframes backgroundAnimation {
+    0% {
+      background-position: 0% 0%;
+    }
+    100% {
+      background-position: 100% 100%;
+    }
+  }
+  
+  /* Infinite loop background animation */
+  .bg-gradient-to-r {
+    animation: backgroundAnimation 15s linear infinite;
+  }
+  
