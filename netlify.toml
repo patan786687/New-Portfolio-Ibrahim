@@ -1,0 +1,2 @@
+[build]
+  node_version = "18.0.0"  # or another compatible version
